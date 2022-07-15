@@ -120,7 +120,7 @@
 							<a href="{{ route('dashboard') }}" class="waves-effect"> <i class="bx bx-home-circle"></i> <span key="t-dashboards">Dashboards</span> </a>
 						</li>
                         <li>
-							<a href="{{ route('/') }}" class="waves-effect"> <i class="bx bx-world"></i> <span key="t-dashboards">Live Site</span> </a>
+							<a href="{{ route('/') }}"  target=”_blank” class="waves-effect"> <i class="bx bx-world"></i> <span key="t-dashboards">Live Site</span> </a>
 						</li>
                         @if(Auth::user()->role=='1' || Auth::user()->role=='2')
 						<li class="menu-title" key="t-apps">ADMIN USER'S</li>
